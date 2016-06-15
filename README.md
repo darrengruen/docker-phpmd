@@ -2,7 +2,7 @@
 
 ### Usage
 
-``` docker run --rm -v $(pwd):$(pwd) gruen/phpmd phpmd $@ ```
+``` docker run --rm -v $(pwd):$(pwd) gruen/phpmd phpmd [ phpmd options ] ```
 
 Will run it in the current directory. You can specify any flags that you need.
 
