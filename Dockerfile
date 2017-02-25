@@ -1,6 +1,6 @@
 #################################################################################
 # PHPMD Task Runner
-# Use docker run -it --rm -v $(pwd):/app gruen/phpmd [ phpmd options ]
+# Use docker run -it --rm -v $(pwd):/app gruen/phpmd:php-5.6 [ phpmd options ]
 #################################################################################
 FROM php:5.6-cli
 MAINTAINER Darren Green <darrensgreen@gmail.com>
