@@ -1,9 +1,16 @@
-## Docker PHPMD Task Runner
+# Docker PHPMD Task Runner
 
-### Usage
+See the [PHPMD homepage](https://phpmd.org/) form information
 
-``` docker run --rm -v $(pwd):$(pwd) gruen/phpmd phpmd [ phpmd options ] ```
+## Tags
 
-Will run it in the current directory. You can specify any flags that you need.
+-   `latest`
+-   `php-5.6`
 
-You can alias this in you source file (.bashrc, .zshrc, etc) to make it simpler
+## Usage
+
+``` docker run --rm -v $(pwd):/app gruen/phpmd[:tag] [phpmd options]```
+
+runs phpmd on your current working directory
+
+for options and outputs, please see the [PHPMD homepage](https://phpmd.org/)
